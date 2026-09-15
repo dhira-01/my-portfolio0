@@ -356,5 +356,10 @@ navLinksAll.forEach(link => {
         }
 
     });
+emailjs.sendForm(
+    "service_vcbn5pa",
+    "template_template_e2l63mo",
+    contactForm
+)
 
 });
